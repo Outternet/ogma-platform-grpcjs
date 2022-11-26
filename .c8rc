@@ -1,0 +1,8 @@
+{
+  "src": "./packages/platform-grpc/src",
+  "include": [
+    "packages/platform-grpc/src/**/*.ts"
+  ],
+  "reporter": ["text", "lcov"],
+  "reportDir": "./packages/platform-grpc/coverage"
+}

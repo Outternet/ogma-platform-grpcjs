@@ -1,0 +1,45 @@
+{
+  "name": "@ogma/platform-grpcjs",
+  "version": "4.0.1",
+  "description": "A plugin for the OgmaInterceptor to properly handle microservice requests from grpc protocols",
+  "keywords": [
+    "grpc",
+    "microservice",
+    "logging",
+    "ogma",
+    "interceptor",
+    "nestjs"
+  ],
+  "author": "Jay McDoniel <jmcdo29@gmail.com>",
+  "homepage": "https://github.com/jmcdo29/ogma#readme",
+  "main": "./lib/grpc-interceptor.service.js",
+  "types": "./lib/grpc-interceptor.service.d.ts",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcdo29/ogma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmcdo29/ogma/issues"
+  },
+  "peerDependencies": {
+    "@nestjs/microservices": "^9.0.0",
+    "@ogma/nestjs-module": "^4.0.0",
+    "@grpc/grpc-js": "^1.7.0"
+  },
+  "peerDependenciesMeta": {
+    "@nestjs/microservices": {
+      "optional": false
+    },
+    "@ogma/nestjs-module": {
+      "optional": false
+    },
+    "@grpc/grpc-js": {
+      "optional": false
+    }
+  }
+}
